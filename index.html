@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="py-3 bg-dark text-light mb-5 text-center">
+        <h2> Notes App </h2>
+    </header>
+
+    <section class="my-4 container w-50 mx-auto">
+        <form>
+            <div class="form-group my-2">
+                <label for="title" class="fw-bold">Note Title</label>
+                <input type="text" class="form-control" id="title">
+            </div>
+            <div class="form-group my-2">
+                <label for="desc" class="fw-bold">Note Description</label>
+                <textarea id="desc" class="form-control"> </textarea>
+            </div>
+            <input type="submit" value="Add Note" class="mt-2 btn btn-dark">
+        </form>
+    </section>
+
+    <section class="my-5 container">
+        <div class="row text-center">
+
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
